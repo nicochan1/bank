@@ -31,6 +31,7 @@ const MobileNav = ({user}: MobileNavProps) => {
                     <Image src="/icons/logo.svg" width={34} height={34} alt="Horizon Logo" />
                     <h1 className='text-26 font-ibm-plex-serif font-bold text-black-1'>Horizon</h1>
                 </Link>
+                
                 <div className='mobilenav-sheet'>
                     <SheetClose asChild>
                         <nav className='flex h-full flex-col gap-6 pt-16 text-white'>
